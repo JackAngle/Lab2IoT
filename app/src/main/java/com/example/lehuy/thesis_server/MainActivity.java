@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        //mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
 
         WifiConfiguration wifiConfiguration = new WifiConfiguration();
         wifiConfiguration.SSID = "LeHuyThinh156";
